@@ -1,0 +1,128 @@
+html,
+body {
+  margin: 0%;
+  height: 100%;
+}
+.header {
+  height: 60px;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+}
+.welcome {
+  height: 300px;
+  background-color: rgb(13, 110, 253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about,
+.contact {
+  height: 400px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-block-start: 83px;
+  margin-block-end: 83px;
+}
+.services {
+  height: 500px;
+  font-size: 22px;
+  background-color: whitesmoke;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.footer {
+  height: 120px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0 20px;
+}
+.text1 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.start {
+  background-color: white;
+  border: 7px dotted white;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.about ul {
+  list-style-type: none;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.about li {
+  margin: 10px 0;
+  text-align: left;
+}
+.about li:before {
+  content: "•";
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.text2 {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+  margin-top: 0em;
+}
+.h2title {
+  width: 50%;
+  margin-right: 10%;
+  text-align: left;
+  margin-bottom: 0;
+  margin-bottom: 0.5em;
+}
+.nav {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: left;
+  margin-left: 5%;
+  border: 15px dotted black;
+}
+.ul {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+  margin-right: 5%;
+  flex-direction: row;
+  list-style: none;
+}
+.ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  border: 5px dotted black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: right;
+}
+.left,
+.right {
+  display: inline-block;
+  width: 50%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
